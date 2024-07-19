@@ -1,0 +1,61 @@
+.fashion-identifier {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.uploaded-image {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.identify-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.identify-button:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.result-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.result-card h2 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+}
+
+.result-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.result-card a:hover .result-content {
+    background-color: #f0f0f0;
+}
+
+.result-content {
+    padding: 10px;
+    border-radius: 5px;
+}
